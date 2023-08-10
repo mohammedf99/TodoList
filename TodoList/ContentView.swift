@@ -8,10 +8,14 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @StateObject var listViewModel: ListViewModel = ListViewModel()
+    
     var body: some View {
         NavigationStack {
             ListView()
         }
+        .environmentObject(listViewModel)
     }
 }
 
