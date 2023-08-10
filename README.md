@@ -1,7 +1,7 @@
 # TodoList
 This is my very first MVVM application using SwiftUI
 
-**Things I have learned in this project**
+**Things I have learned in this project:**
 - Learned SwiftUI basics
 - Learned how to use MVVM architecture
 - learned UserDefaults
